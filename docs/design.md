@@ -6,8 +6,8 @@ with your Claude plan (Pro and up) and shares its usage with Claude Code.
 
 ## Bring
 
-- **Photos of the real thing** — samples, prototype, the app on a phone, the
-  marina (with permission). Phone camera, daylight, plain background, 5–10
+- **Photos of the real thing** — samples, prototype, the app on a phone,
+  your customers' setting (with permission). Phone camera, daylight, plain background, 5–10
   shots. Save them in `site/img/` too.
 - **2–3 sites your segment already buys from**, as screenshots. They set the
   bar and the register.

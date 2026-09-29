@@ -1,6 +1,6 @@
 ---
 name: new-page
-description: Build a new page or a variant of the deposit page — for a channel (LinkedIn, a community, a pet fair QR code), a sub-segment, or a new headline test. Draws only on CLAUDE.md and evidence/.
+description: Build a new page or a variant of the deposit page — for a channel (LinkedIn, a community, a QR code at an event), a sub-segment, or a new headline test. Draws only on CLAUDE.md and evidence/.
 ---
 
 # Build a page

@@ -20,7 +20,7 @@ description: Check, commit and push the site so Cloudflare publishes it, then co
      `depositLink` or, for `manual`, `manualInstructions`.
 
 3. **Commit** with a message that says what changed and why, e.g.
-   `Headline speaks to heavier-bust fit; LinkedIn variant added`.
+   `Headline uses the customer's own words; LinkedIn variant added`.
 
 4. **Push.** On `main`, `git push` publishes. On a branch, push the branch
    and give the team its preview address.

@@ -22,7 +22,7 @@ what you promised, what you proved, what is next.
 
 Because the memory is in files, it travels:
 
-- **between co-founders** — Khushi picks up where Toshika stopped;
+- **between co-founders** — your co-founder picks up where you stopped;
 - **between machines** — laptop today, claude.ai/code in the browser tomorrow;
 - **between models** — next year's Claude reads the same files.
 
@@ -40,7 +40,7 @@ Small steps, each one live. A change that breaks something is one
 ## Why plain HTML
 
 Plain files, published as they are. Fewer moving parts, fewer ways to
-break, and a page that loads fast on a phone in Jakarta. You can graduate to a framework when a prototype needs one.
+break, and a page that loads fast on a phone on mobile data. You can graduate to a framework when a prototype needs one.
 
 ## Public and secret keys
 
