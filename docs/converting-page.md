@@ -1,8 +1,24 @@
 # A page that converts
 
-One page, one job: turn a visitor into a deposit. Your canvas and your
-experiment design tell you *what* to say. This is *how* a page that sells
-is built. `/new-page` builds to it and checks against it.
+One page, one job: turn a visitor into a deposit. `/new-page` builds to
+this and checks against it.
+
+## Their words, first
+
+A visitor decides in seconds whether the page is about *their* problem.
+They recognise their own words. So the copy comes from
+`evidence/language.md` — the phrases your customers used, sorted with the
+problem space canvas — and from nowhere else.
+
+- **Draft the headline as "Now you can…"** in their words, then trim.
+  Write five; keep the one a customer would say.
+- **Ban the platitudes:** better, faster, easy, seamless, all-in-one,
+  convenient, revolutionary. Say what, exactly.
+- **The five-second test:** show the top of the page to 4–5 people from
+  your segment for five seconds, hide it, ask what it offers. Rewrite until
+  they say it back in their own words. Then publish.
+
+Method: Matt Lerner, *Finding Language/Market Fit*, First Round Review.
 
 ## The order
 
@@ -19,6 +35,7 @@ is built. `/new-page` builds to it and checks against it.
 
 ## The checklist
 
+- **Every phrase traceable to `evidence/language.md`** — or cut.
 - **Headline = the outcome they want**, in their words. The line under it
   says what it is and who it is for.
 - **One primary action.** Every button on the page leads to the deposit.

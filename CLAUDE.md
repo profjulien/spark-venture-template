@@ -22,7 +22,7 @@
   - [EVIDENCE] …
   - [INFERENCE] …
   - [UNKNOWN] …
-- **Voice on the page:** [how the segment talks · words to use · words to avoid]
+- **Voice on the page:** their words, from `evidence/language.md` · [words to avoid]
 - **Design system:** [Claude Design link] — snapshot in `design/`
 - **Live page:** [https://….pages.dev]
 - **Payment provider:** see `site/config.js`.
@@ -49,6 +49,7 @@
 | `CLAUDE.md` | stable memory: the venture + these rules |
 | `project-state.md` | moving memory: counts, this week's metric, next action |
 | `evidence/` | interviews, quotes, screenshots, the Demo Day page |
+| `evidence/language.md` | customers' exact phrases, sorted with the canvas — the source of all copy |
 | `evidence/deposits.csv` | every deposit, any provider — the milestone count |
 | `evidence/spend.csv` + `evidence/receipts/` | team spend — what ESSEC matches |
 | `site/` | the live site: plain HTML, CSS, JS |
@@ -66,7 +67,8 @@
 2. **One proposition per page, built to convert.** Every page follows
    `docs/converting-page.md`. A second idea goes to `project-state.md` under
    *Parked*.
-3. **Every claim on a page traces to `evidence/`.** Quotes are verbatim and
+3. **Page copy comes from customers' own words** in `evidence/language.md`.
+   **Every claim on a page traces to `evidence/`.** Quotes are verbatim and
    used with permission. Numbers are real counts. Anything else is removed.
 4. **One settings file.** Payment link, provider, Supabase address and
    publishable key live in `site/config.js` and nowhere else.

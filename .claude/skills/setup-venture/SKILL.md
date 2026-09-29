@@ -17,8 +17,15 @@ The page can only be as sharp as this section. Take the time.
    - 3–5 visuals, if they have them (save into `site/img/`).
 
 2. **Save the source.** Write the Demo Day page to
-   `evidence/demo-day-page.md`. Save any interview notes they paste as
-   `evidence/interview-YYYY-MM-DD-firstname.md`.
+   `evidence/demo-day-page.md`. Save any interview notes or transcripts
+   they paste as `evidence/interview-YYYY-MM-DD-firstname.md`, and their
+   problem space canvas as `evidence/canvas.md`.
+
+   **Fill the language bank.** Go through every transcript, note and reply;
+   copy customers' exact phrases into `evidence/language.md` under the
+   canvas heading they belong to, each with its source. Verbatim only —
+   the team's own summaries stay out. List the jargon the team uses that
+   customers never said under *Our jargon*.
 
 3. **Draft *The venture*** in `CLAUDE.md`. Fill every bracket. Label each
    evidence line EVIDENCE, INFERENCE (a hint or our reading) or UNKNOWN.
