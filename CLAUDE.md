@@ -13,8 +13,9 @@
 - **Segment:** [who, specifically — narrow enough to find 50 of them]
 - **Struggle:** [the situation they are in, in their words]
 - **Single proposition:** For [segment], [product], so they can [progress].
-- **The deposit:** [amount + currency] reserves [what]. Refundable [terms].
-  Delivery [window].
+- **The ask:** [type — signup · form · booking · payment] — [what exactly: e.g. a
+  S$50 refundable deposit that reserves …]. **The give:** [what they get in
+  return]. Terms: [refund, delivery window, what happens next].
   <!-- B2B teams: replace with **The pilot ask:** feature scope · what the
   client commits to (deploy and test once ready) · who signs. -->
 - **Milestone:** [10 paid deposits | 1 signed pilot] by [date]. Next: [50 | 3 accounts].
@@ -40,7 +41,7 @@
 | Remember | GitHub | this repo — every file, every version |
 | Publish | Cloudflare Pages | serves the `site/` folder; every push to `main` goes live |
 | Store | Supabase | `leads` and `events` tables, fed by the page |
-| Collect | Stripe by default — Razorpay, Xendit or manual also fit | a payment link in `site/config.js` |
+| Collect | the ask: Stripe for payments; a calendar or form link for other asks | `ask` in `site/config.js` |
 
 ### Where things live
 
@@ -50,10 +51,10 @@
 | `project-state.md` | moving memory: counts, this week's metric, next action |
 | `evidence/` | interviews, quotes, screenshots, the Demo Day page |
 | `evidence/language.md` | customers' exact phrases, sorted with the canvas — the source of all copy |
-| `evidence/deposits.csv` | every deposit, any provider — the milestone count |
+| `evidence/commitments.csv` | every confirmed ask, any kind — the milestone count |
 | `evidence/spend.csv` + `evidence/receipts/` | team spend — what ESSEC matches |
 | `site/` | the live site: plain HTML, CSS, JS |
-| `site/config.js` | the one settings file: payment link, Supabase address and key |
+| `site/config.js` | the one settings file: the ask, Supabase address and key |
 | `design/` | snapshot of the design system: `brand.md`, `tokens.json` |
 | `phase1/` | the Phase 1 Venture Folder, kept as it was — source material |
 | `supabase/schema.sql` | the database tables and their access rules |
@@ -71,8 +72,8 @@
 3. **Page copy comes from customers' own words** in `evidence/language.md`.
    **Every claim on a page traces to `evidence/`.** Quotes are verbatim and
    used with permission. Numbers are real counts. Anything else is removed.
-4. **One settings file.** Payment link, provider, Supabase address and
-   publishable key live in `site/config.js` and nowhere else.
+4. **One settings file.** The ask (type, link, provider), the Supabase
+   address and publishable key live in `site/config.js` and nowhere else.
 5. **Secret keys live in `.env` only** — Stripe `sk_…`, Supabase secret or
    `service_role` keys. Git ignores `.env`. Keys stay out of chat and out of
    `site/`. The Supabase *publishable* key is public by design; the table
@@ -102,5 +103,5 @@
 | `/setup-venture` | builds *The venture* section from the Demo Day page — run once |
 | `/new-page` | builds a page or a channel variant from this file and `evidence/` |
 | `/publish` | checks, commits, pushes, and confirms the change is live |
-| `/log` | records a deposit or a team expense in the ledgers |
+| `/log` | records a confirmed ask or a team expense in the ledgers |
 | `/wrap-up` | updates `project-state.md`, commits, pushes |

@@ -41,14 +41,19 @@ yours awake; if it sleeps, press **Restore** in the dashboard.
 From now on, every push to `main` goes live in about a minute.
 Details and plan B: [`hosting.md`](hosting.md).
 
-## 4. Payment link — Stripe sandbox · 10 min
+## 4. The ask — your link · 10 min
+
+Set `ask.type` in `site/config.js` (see [`the-ask.md`](the-ask.md)). For a
+`signup`, skip to *Done when*. For a `form` or `booking`, create the link,
+redirect it to `…/thanks.html`, paste it into `ask.link`, `/publish`. For a
+`payment`, the Stripe sandbox:
 
 1. Stripe dashboard, **sandbox** on → **Payment Links → New.**
 2. Product: *Refundable deposit — [what it reserves]*. Price: your deposit.
 3. **After payment → redirect to your website:**
    `https://<project>.pages.dev/thanks.html`
 4. Optional: add a custom field (size, colour, company name).
-5. Copy the link into `site/config.js` → `depositLink`. `/publish`.
+5. Copy the link into `site/config.js` → `ask.link`. `/publish`.
 6. Check: click **Reserve** on the live page, pay with the test card
    `4242 4242 4242 4242` (any future date, any CVC). You land on
    `thanks.html`.
@@ -59,5 +64,6 @@ Using Razorpay, Xendit or manual transfers instead: [`payments.md`](payments.md)
 
 - [ ] The live page opens on your phone, and looks like your design system.
 - [ ] A test lead shows up in Supabase.
-- [ ] A sandbox payment lands on `thanks.html`.
+- [ ] The ask works end to end: a sandbox payment, a test booking or a
+      test form lands on `thanks.html`.
 - [ ] `/wrap-up` has recorded the live address.

@@ -13,9 +13,10 @@ The page can only be as sharp as this section. Take the time.
    the team only for what is still missing:
    - the Demo Day page (file, link or pasted text);
    - the single proposition, one sentence;
-   - the deposit: amount, currency, what it reserves, refund terms, delivery
-     window — or, for a B2B pilot, the feature scope, what the client
-     commits to, and who signs;
+   - the ask and the give: which type (signup · form · booking · payment,
+     see `docs/the-ask.md`), exactly what is asked, what the visitor gets,
+     and the terms (for a payment: amount, refund, delivery window; for a
+     pilot: scope, what the client commits to, who signs);
    - the founders' names and the city each is based in;
    - 3–5 visuals, if they have them (save into `site/img/`).
 
@@ -47,7 +48,7 @@ The page can only be as sharp as this section. Take the time.
    `site/thanks.html` and `site/policies.html` with copy drawn only from
    `CLAUDE.md` and `evidence/`. Where evidence is missing (say, no quote the
    team may use), leave that block out and tell them what would fill it.
-   Set `venture` in `site/config.js`.
+   Set `venture` and `ask.type` in `site/config.js`.
 
 8. **Record and commit.** Fill `project-state.md` (milestone, count, this
    week's metric in the form *"By [day] we will have asked N [segment]; M

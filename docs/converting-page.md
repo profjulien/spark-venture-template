@@ -1,6 +1,6 @@
 # A page that converts
 
-One page, one job: turn a visitor into a deposit. `/new-page` builds to
+One page, one job: turn a visitor into a yes to your ask (`the-ask.md`). `/new-page` builds to
 this and checks against it.
 
 ## Their words, first
@@ -22,14 +22,15 @@ Method: Matt Lerner, *Finding Language/Market Fit*, First Round Review.
 
 ## The order
 
-1. **Hero** — headline, one line under it, the deposit button, one line of
+1. **Hero** — headline, one line under it, the ask button, one line of
    proof, and a real photo of the product. On a phone, everything but the
    photo shows before any scroll; the photo follows right under.
 2. **The problem** — the situation, in the words your customers used.
 3. **What you get** — three outcomes, each one concrete.
 4. **Proof** — real quotes, real numbers, real faces (with permission).
-5. **The deal** — price, deposit, what it reserves, delivery window,
-   refund terms, and an honest reason to act now.
+5. **The deal** — what they give, what they get, what happens next, the
+   terms (for a payment: price, refund, delivery window), and an honest
+   reason to act now.
 6. **Questions** — the three objections you heard most, answered.
 7. **Last call** — the button again, and the list for anyone who wants to wait.
 
@@ -38,7 +39,7 @@ Method: Matt Lerner, *Finding Language/Market Fit*, First Round Review.
 - **Every phrase traceable to `evidence/language.md`** — or cut.
 - **Headline = the outcome they want**, in their words. The line under it
   says what it is and who it is for.
-- **One primary action.** Every button on the page leads to the deposit.
+- **One primary action.** Every button on the page leads to the ask.
   The list is the single fallback.
 - **The button says what happens:** *Reserve mine — S$50, refundable* beats
   *Submit*.
@@ -51,5 +52,5 @@ Method: Matt Lerner, *Finding Language/Market Fit*, First Round Review.
   headline. One page variant per channel (`/new-page`, `?ref=`).
 - **Specific beats clever.** Numbers, names of things, the real price.
 - **Fast and light on a phone:** compressed photos, minimal navigation.
-- **Measured:** views → deposit clicks → deposits, per channel. Change one
+- **Measured:** views → ask clicks → confirmed asks, per channel. Change one
   thing at a time and watch the numbers.

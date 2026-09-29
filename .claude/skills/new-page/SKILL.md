@@ -1,6 +1,6 @@
 ---
 name: new-page
-description: Build a new page or a variant of the deposit page — for a channel (LinkedIn, a community, a QR code at an event), a sub-segment, or a new headline test. Draws only on CLAUDE.md and evidence/.
+description: Build a new page or a variant of the main page — for a channel (LinkedIn, a community, a QR code at an event), a sub-segment, or a new headline test. Draws only on CLAUDE.md and evidence/.
 ---
 
 # Build a page
@@ -14,7 +14,7 @@ description: Build a new page or a variant of the deposit page — for a channel
 
 2. **Ask three things** (skip any the team already said):
    - Who arrives here, and from where? (the channel)
-   - What one action should they take? (usually: pay the deposit)
+   - What one action should they take? (the ask in `CLAUDE.md`, unless this page tests another)
    - What is this page testing? (a headline, a segment, a channel)
 
 3. **Build** to `docs/converting-page.md` — its order and its checklist.
@@ -22,7 +22,7 @@ description: Build a new page or a variant of the deposit page — for a channel
    `styles.css`, `config.js`, `app.js`, footer and policy links. Apply the
    design system: its colours and type in the `:root` variables, its fonts,
    its layout guidance; product photos from `site/img/`, sized for phones. Keep the
-   deposit buttons as `data-deposit` so the payment link stays in one place.
+   ask buttons as `data-ask` so the ask stays set in one place (`site/config.js`).
 
 4. **Copy rules.**
    - Write from `evidence/language.md`: the customers' own phrases, lightly

@@ -1,9 +1,9 @@
-// Wires the page to config.js: deposit buttons, the lead form, and the
-// funnel events (page views and deposit clicks) that land in Supabase.
+// Wires the page to config.js: the ask buttons, the lead form, and the
+// funnel events (page views and ask clicks) that land in Supabase.
 
 (function () {
   const cfg = window.SPARK_CONFIG || {};
-  const pay = cfg.payments || {};
+  const ask = cfg.ask || {};
   const db = cfg.supabase || {};
 
   // Where did this visitor come from? ?utm_source=… or ?ref=… on any link
@@ -47,23 +47,31 @@
 
   insert("events", { type: "view", page, source });
 
-  // Deposit buttons: any element with data-deposit.
-  const manualBox = document.getElementById("manual-payment");
-  document.querySelectorAll("[data-deposit]").forEach((btn) => {
-    if (pay.provider === "manual") {
-      btn.setAttribute("href", "#manual-payment");
-    } else if (pay.depositLink) {
-      btn.setAttribute("href", pay.depositLink);
+  // Ask buttons: any element with data-ask. Where they lead depends on the
+  // ask type in config.js.
+  const askBox = document.getElementById("ask-instructions");
+  const manual = ask.type === "payment" && ask.provider === "manual";
+  document.querySelectorAll("[data-ask]").forEach((btn) => {
+    if (ask.type === "signup") {
+      btn.setAttribute("href", "#list");
+    } else if (manual) {
+      btn.setAttribute("href", "#ask-instructions");
+    } else if (ask.link) {
+      btn.setAttribute("href", ask.link);
     } else {
-      btn.setAttribute("href", "#deposit");
+      btn.setAttribute("href", "#deal");
       btn.dataset.pending = "true";
     }
     btn.addEventListener("click", () => {
-      insert("events", { type: "deposit_click", page, source });
-      if (pay.provider === "manual" && manualBox) {
-        manualBox.hidden = false;
-        const text = manualBox.querySelector("[data-manual-text]");
-        if (text) text.textContent = pay.manualInstructions || "Payment details coming shortly.";
+      insert("events", { type: "cta_click", page, source });
+      if (manual && askBox) {
+        askBox.hidden = false;
+        const text = askBox.querySelector("[data-ask-text]");
+        if (text) text.textContent = ask.instructions || "Details coming shortly.";
+      }
+      if (ask.type === "signup") {
+        const first = document.querySelector("#lead-form input[name=name]");
+        if (first) setTimeout(() => first.focus(), 300);
       }
     });
   });

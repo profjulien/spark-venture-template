@@ -1,11 +1,12 @@
 # Payments
 
-Stripe is the default. The page only knows two things, both in
-`site/config.js`: the **provider** and the **link**. Swapping provider means
-changing those two lines.
+For an ask of type `payment` (see [`the-ask.md`](the-ask.md)). Stripe is
+the default. The page only knows two things, both in `site/config.js` →
+`ask`: the **provider** and the **link**. Swapping provider means changing
+those two lines.
 
-Whatever the provider, every deposit goes in `evidence/deposits.csv` via
-`/log`. That file is the milestone count.
+Whatever the provider, every confirmed payment goes in
+`evidence/commitments.csv` via `/log`.
 
 ## Which provider
 
@@ -25,10 +26,10 @@ Activation takes days. Start it early and use `manual` meanwhile.
 **Stripe**
 1. Sandbox on → **Payment Links → New.** Product: *Refundable deposit —
    [what it reserves]*. After payment → redirect to `…/thanks.html`.
-2. Link → `depositLink`, `provider: "stripe"`.
+2. Link → `ask.link`, `ask.provider: "stripe"`.
 3. Going live: activate the account (*Settings → Account*), using your live
    page as the website. Recreate the link in live mode and replace
-   `depositLink`.
+   `ask.link`.
 
 With the Stripe plugin connected to your **sandbox**, Claude can create the
 product and link for you: *"create a sandbox payment link for our deposit
@@ -40,9 +41,9 @@ and contact pages before activation — `policies.html` covers all three.
 
 **Xendit** — **Payment Links** → create → copy. `provider: "xendit"`.
 
-**Manual** — `provider: "manual"`, `depositLink: ""`, and write
-`manualInstructions`, e.g. *"PayNow S$50 to +65 …, reference: your email.
-We confirm within 24 hours."* The deposit button then shows those
+**Manual** — `ask.provider: "manual"`, `ask.link: ""`, and write
+`ask.instructions`, e.g. *"PayNow S$50 to +65 …, reference: your email.
+We confirm within 24 hours."* The ask button then shows those
 instructions.
 
 Test before you share: one sandbox payment end to end, then one real payment
@@ -52,7 +53,7 @@ from a teammate, refunded.
 
 When you move from 10 to 50, logging by hand gets slow. Level 2 replaces the
 link with Stripe Checkout and a webhook that writes each payment into the
-Supabase `deposits` table — same columns as `deposits.csv`, any provider.
+Supabase `commitments` table — same columns as `commitments.csv`.
 It needs secret keys in `.env` and a small server function. Ask Claude to
 plan it with you when you get there.
 

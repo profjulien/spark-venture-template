@@ -5,8 +5,8 @@ _Updated: [date] by [name]_
 ## Now
 
 - **Milestone:** [10 paid deposits | 1 signed pilot] by [date]
-- **Count:** [0] paid · [0] refunded — from `evidence/deposits.csv`
-- **Funnel this week:** [views] → [deposit clicks] → [leads] — from Supabase
+- **Count:** [0] confirmed · [0] refunded or cancelled — from `evidence/commitments.csv`
+- **Funnel this week:** [views] → [ask clicks] → [leads] → [confirmed] — from Supabase
 - **Live page:** [https://….pages.dev]
 
 ## Metric this week
