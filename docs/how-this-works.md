@@ -40,7 +40,7 @@ Small steps, each one live. A change that breaks something is one
 ## Why plain HTML
 
 Plain files, published as they are. Fewer moving parts, fewer ways to
-break, and a page that loads fast on a phone in Jakarta. You can graduate to a framework when a prototype needs one.
+break, and a page that loads fast on a phone on mobile data. You can graduate to a framework when a prototype needs one.
 
 ## Public and secret keys
 

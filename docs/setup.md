@@ -47,7 +47,7 @@ Details and plan B: [`hosting.md`](hosting.md).
 2. Product: *Refundable deposit — [what it reserves]*. Price: your deposit.
 3. **After payment → redirect to your website:**
    `https://<project>.pages.dev/thanks.html`
-4. Optional: add a custom field (size, colour, marina name).
+4. Optional: add a custom field (size, colour, company name).
 5. Copy the link into `site/config.js` → `depositLink`. `/publish`.
 6. Check: click **Reserve** on the live page, pay with the test card
    `4242 4242 4242 4242` (any future date, any CVC). You land on
