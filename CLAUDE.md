@@ -55,6 +55,7 @@
 | `site/` | the live site: plain HTML, CSS, JS |
 | `site/config.js` | the one settings file: payment link, Supabase address and key |
 | `design/` | snapshot of the design system: `brand.md`, `tokens.json` |
+| `phase1/` | the Phase 1 Venture Folder, kept as it was — source material |
 | `supabase/schema.sql` | the database tables and their access rules |
 | `app/` | the product, once validated — see `docs/product.md` |
 | `docs/` | setup steps, hosting, payments, the why |
