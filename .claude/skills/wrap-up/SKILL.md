@@ -10,8 +10,9 @@ description: End-of-session save. Updates project-state.md with counts, this wee
      `evidence/commitments.csv`.
    - Funnel: ask the team to open Supabase → **Table Editor →
      funnel_by_source** (and **funnel_daily** for this week) and read out
-     visitors, engaged, clicked, leads and confirmed per channel. Record what
-     they say, and name the weakest stage (`docs/measure.md`, *Reading it*).
+     visitors, ask clicks, leads and confirmed per channel. Record the raw
+     counts next to the rates, note where the counts thin out, and list two
+     or three possible explanations to test (`docs/measure.md`).
 
 2. **Update `project-state.md`:**
    - *Updated* line: today's date and who worked.
