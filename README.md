@@ -5,12 +5,15 @@ site, your evidence, your ledgers, and the memory Claude reads every session.
 
 ## Start
 
-1. **Use this template → Create a new repository.** Private. Name it after
-   your venture. Add your co-founder under *Settings → Collaborators*.
-2. Open the repo in Claude Code and run **`/setup-venture`**. It turns your
-   Demo Day page into the venture memory in `CLAUDE.md`.
+1. Open Claude Code and paste the prompt in [`SETUP.md`](SETUP.md). Claude
+   creates your private team repo from this template, invites your
+   co-founder, and walks you through the accounts. (By hand: **Use this
+   template → Create a new repository**, private, and add your co-founder
+   under *Settings → Collaborators*.)
+2. In the repo, run **`/setup-venture`**. It turns your Demo Day page into
+   the venture memory in `CLAUDE.md`.
 3. Follow [`docs/setup.md`](docs/setup.md): design system, database,
-   hosting, payment link. About an hour the first time.
+   hosting, the ask. It ends with the **Ready to launch** checklist.
 
 After that, the loop is: **`/new-page` → preview → `/publish` → `/wrap-up`.**
 
