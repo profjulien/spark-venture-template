@@ -17,6 +17,7 @@ After that, the loop is: **`/new-page` → preview → `/publish` → `/wrap-up`
 ## Read next
 
 - [`docs/how-this-works.md`](docs/how-this-works.md) — why this setup
+- [`docs/converting-page.md`](docs/converting-page.md) — how a page that sells is built
 - [`docs/design.md`](docs/design.md) — the look, with Claude Design
 - [`docs/payments.md`](docs/payments.md) — Stripe, and how to swap it
 - [`docs/hosting.md`](docs/hosting.md) — Cloudflare Pages, plus plan B

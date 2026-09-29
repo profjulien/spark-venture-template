@@ -3,43 +3,49 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>[Venture name] — [the progress, in five words]</title>
+  <title>[Venture name] — [the outcome, in five words]</title>
   <meta name="description" content="[One sentence: for whom, what, so they can what.]">
-  <meta property="og:title" content="[Venture name] — [the progress, in five words]">
+  <meta property="og:title" content="[Venture name] — [the outcome, in five words]">
   <meta property="og:description" content="[One sentence: for whom, what, so they can what.]">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!--
-  STARTER PAGE. /setup-venture and /new-page replace every [bracket] with copy
-  from CLAUDE.md and evidence/. /publish lists any bracket still left.
-  Section order: promise → struggle → what you get → proof → deposit → list → FAQ.
+  STARTER PAGE, built to docs/converting-page.md:
+  hero → problem → what you get → proof → the deal → questions → last call.
+  /setup-venture and /new-page replace every [bracket] with copy from
+  CLAUDE.md and evidence/. /publish lists any bracket still left.
 -->
 
 <header class="top">
   <div class="wrap">
     <a class="brand" href="/">[Venture name]</a>
-    <a href="#deposit">Reserve</a>
+    <a href="#deal">Reserve</a>
   </div>
 </header>
 
 <main>
   <section class="hero">
-    <div class="wrap">
-      <h1>[Headline: the progress your segment wants, in their words]</h1>
-      <p class="lead">[One or two lines: who it is for, what it is, and why now.]</p>
-      <div class="cta-row">
-        <a class="button" data-deposit>Reserve yours — [amount] refundable deposit</a>
-        <a class="button ghost" href="#list">Join the list</a>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1>[Headline: the outcome your customer wants, in their words]</h1>
+        <p class="lead">[One line: what it is, and who it is for.]</p>
+        <div class="cta-row">
+          <a class="button" data-deposit>Reserve mine — [amount], refundable</a>
+        </div>
+        <p class="micro-proof">[One line of proof: “quote” — First name, or a real count]</p>
       </div>
+      <figure class="hero-media">
+        <img src="img/hero.jpg" alt="[What the photo shows]" width="800" height="800" onerror="this.remove()">
+      </figure>
     </div>
   </section>
 
   <section class="soft">
     <div class="wrap">
-      <h2>[The struggle, named the way they name it]</h2>
-      <p>[Two or three sentences describing the situation. Use phrases from your interviews.]</p>
+      <h2>[The problem, named the way your customers name it]</h2>
+      <p>[Two or three sentences on the situation. Use phrases from your interviews.]</p>
     </div>
   </section>
 
@@ -47,9 +53,9 @@
     <div class="wrap">
       <h2>What you get</h2>
       <div class="grid three">
-        <div class="card"><h3>[Benefit 1]</h3><p class="muted">[One line.]</p></div>
-        <div class="card"><h3>[Benefit 2]</h3><p class="muted">[One line.]</p></div>
-        <div class="card"><h3>[Benefit 3]</h3><p class="muted">[One line.]</p></div>
+        <div class="card"><h3>[Outcome 1]</h3><p class="muted">[One concrete line.]</p></div>
+        <div class="card"><h3>[Outcome 2]</h3><p class="muted">[One concrete line.]</p></div>
+        <div class="card"><h3>[Outcome 3]</h3><p class="muted">[One concrete line.]</p></div>
       </div>
     </div>
   </section>
@@ -66,16 +72,18 @@
     </div>
   </section>
 
-  <section id="deposit">
+  <section id="deal">
     <div class="wrap">
-      <h2>How the deposit works</h2>
+      <h2>The deal</h2>
       <ul class="terms">
-        <li><span>Deposit</span><span>[amount + currency]</span></li>
+        <li><span>Price</span><span>[full price + currency]</span></li>
+        <li><span>Deposit today</span><span>[amount] — counts toward the price</span></li>
         <li><span>Reserves</span><span>[what, exactly]</span></li>
         <li><span>Delivery</span><span>[window]</span></li>
         <li><span>Refund</span><span>[Full refund on request until …]</span></li>
       </ul>
-      <a class="button" data-deposit>Pay the [amount] deposit</a>
+      <p class="why-now">[A true reason to act now — e.g. the first batch is [N] units; founding price until [date].]</p>
+      <a class="button" data-deposit>Reserve mine — [amount], refundable</a>
       <div id="manual-payment" class="notice" hidden>
         <h3>How to pay</h3>
         <p data-manual-text></p>
@@ -85,10 +93,20 @@
     </div>
   </section>
 
-  <section id="list" class="soft">
+  <section class="soft">
     <div class="wrap">
-      <h2>Rather wait and see?</h2>
-      <p class="muted">Join the list. We write when [the next milestone for the customer].</p>
+      <h2>Questions</h2>
+      <details><summary>[The objection you heard most]</summary><p>[Answer.]</p></details>
+      <details><summary>[The second one]</summary><p>[Answer.]</p></details>
+      <details><summary>What if I change my mind?</summary><p>[Refund terms in one sentence.]</p></details>
+    </div>
+  </section>
+
+  <section id="list" class="last-call">
+    <div class="wrap">
+      <h2>[Headline again, shorter]</h2>
+      <a class="button" data-deposit>Reserve mine — [amount], refundable</a>
+      <p class="muted" style="margin-top:28px">Not ready yet? Join the list. We write when [the next milestone for the customer].</p>
       <form id="lead-form" novalidate>
         <label>Name <input name="name" autocomplete="name" required></label>
         <label>Email <input name="email" type="email" autocomplete="email" required></label>
@@ -97,18 +115,9 @@
         </label>
         <label class="hp" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
         <p class="consent">We email you about [Venture name] only. Unsubscribe anytime. <a href="policies.html#privacy">Privacy</a>.</p>
-        <div><button class="button" type="submit">Keep me posted</button></div>
+        <div><button class="button ghost" type="submit">Keep me posted</button></div>
         <p data-status aria-live="polite"></p>
       </form>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <h2>Questions</h2>
-      <details><summary>[Question people asked in interviews]</summary><p>[Answer.]</p></details>
-      <details><summary>What if I change my mind?</summary><p>[Refund terms in one sentence.]</p></details>
-      <details><summary>Who is behind this?</summary><p>[Founders, one line each, and where you are based.]</p></details>
     </div>
   </section>
 </main>

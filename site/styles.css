@@ -36,6 +36,16 @@ header.top .wrap { display: flex; justify-content: space-between; align-items: c
 .hero { padding: 40px 0 56px; border-top: 0; }
 .hero h1 { font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.12; letter-spacing: -0.02em; margin: 0 0 16px; }
 .hero p.lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 28px; }
+.hero-grid { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 760px) { .hero-grid { grid-template-columns: 1.1fr 1fr; max-width: 1040px; } header.top .wrap { max-width: 1040px; } }
+.hero-copy { min-width: 0; }
+.hero-media { margin: 0; position: relative; aspect-ratio: 1 / 1; max-width: 100%; border-radius: var(--radius); background: var(--accent); overflow: hidden; }
+.hero-media::after { content: "Your product photo: site/img/hero.jpg"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 0.9rem; text-align: center; padding: 16px; }
+.hero-media img { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+.micro-proof { margin: 18px 0 0; font-size: 0.95rem; color: var(--muted); }
+.why-now { font-weight: 600; margin: 0 0 20px; }
+.last-call { text-align: left; }
+.last-call form { margin-top: 16px; }
 
 h2 { font-size: 1.5rem; line-height: 1.25; letter-spacing: -0.01em; margin: 0 0 16px; }
 h3 { font-size: 1.05rem; margin: 0 0 6px; }

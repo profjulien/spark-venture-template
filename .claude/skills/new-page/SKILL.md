@@ -17,7 +17,8 @@ description: Build a new page or a variant of the deposit page — for a channel
    - What one action should they take? (usually: pay the deposit)
    - What is this page testing? (a headline, a segment, a channel)
 
-3. **Build** `site/<short-name>.html` from `site/index.html` — same
+3. **Build** to `docs/converting-page.md` — its order and its checklist.
+   Start `site/<short-name>.html` from `site/index.html` — same
    `styles.css`, `config.js`, `app.js`, footer and policy links. Apply the
    design system: its colours and type in the `:root` variables, its fonts,
    its layout guidance; product photos from `site/img/`, sized for phones. Keep the
@@ -31,10 +32,9 @@ description: Build a new page or a variant of the deposit page — for a channel
 
 5. **Preview and review.** Open the page locally (the `site` preview in the
    desktop app, or open the file). Screenshot it at phone and desktop width
-   and check it against the design system and these four: in five seconds,
-   who is it for, what is it, what do I do? · the deposit button visible
-   without scrolling on a phone · proof next to the button · real photos.
-   Fix the three biggest gaps, then show the team.
+   and check it against the design system and every line of the checklist
+   in `docs/converting-page.md`. Fix the three biggest gaps, then show the
+   team what you fixed and what is still open.
 
 6. **Report** to the team:
    - the page's address once published: `https://<project>.pages.dev/<short-name>.html?ref=<channel>`;

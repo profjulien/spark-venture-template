@@ -63,8 +63,9 @@
 1. **Memory lives in this repo.** Start every session by reading `CLAUDE.md`
    and `project-state.md`. End it with `/wrap-up`. A co-founder picking up
    tomorrow starts exactly where you stopped.
-2. **One proposition per page.** A second idea goes to `project-state.md`
-   under *Parked*.
+2. **One proposition per page, built to convert.** Every page follows
+   `docs/converting-page.md`. A second idea goes to `project-state.md` under
+   *Parked*.
 3. **Every claim on a page traces to `evidence/`.** Quotes are verbatim and
    used with permission. Numbers are real counts. Anything else is removed.
 4. **One settings file.** Payment link, provider, Supabase address and

@@ -33,7 +33,7 @@ The page can only be as sharp as this section. Take the time.
 6. **Confirm.** Show the finished section. Ask the team to confirm the single
    proposition word for word.
 
-7. **Draft the page.** Replace the brackets in `site/index.html`,
+7. **Draft the page** to `docs/converting-page.md`. Replace the brackets in `site/index.html`,
    `site/thanks.html` and `site/policies.html` with copy drawn only from
    `CLAUDE.md` and `evidence/`. Where evidence is missing (say, no quote the
    team may use), leave that block out and tell them what would fill it.
