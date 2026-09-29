@@ -13,7 +13,8 @@ Columns: `date,kind,channel,amount,currency,provider,customer,reference,status,n
 
 - `kind`: what was confirmed — `deposit`, `pre-order`, `purchase`, `booking`,
   `pilot`, `loi`, `application`, or the team's own word (lowercase, hyphens)
-- `channel`: where this person came from (`?ref=` on their link, or how you
+- `channel`: where this person came from — the same code as the `?ref=` on
+  their link, so it meets the page's own counts in `funnel_by_source` (or how you
   reached them)
 - `amount`, `currency`, `provider`: for payments only; leave empty otherwise
 - `customer`: first name + initial only

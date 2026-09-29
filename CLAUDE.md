@@ -40,7 +40,7 @@
 | Write | Claude Code | this conversation |
 | Remember | GitHub | this repo — every file, every version |
 | Publish | Cloudflare Pages | serves the `site/` folder; every push to `main` goes live |
-| Store | Supabase | `leads` and `events` tables, fed by the page |
+| Store | Supabase | `events`, `leads`, `commitments`, and the funnel views — `docs/measure.md` |
 | Collect | the ask: Stripe for payments; a calendar or form link for other asks | `ask` in `site/config.js` |
 
 ### Where things live
@@ -59,7 +59,7 @@
 | `phase1/` | the Phase 1 Venture Folder, kept as it was — source material |
 | `supabase/schema.sql` | the database tables and their access rules |
 | `app/` | the product, once validated — see `docs/product.md` |
-| `docs/` | setup steps, hosting, payments, the why |
+| `docs/` | setup, the ask, measurement, hosting, payments, the why |
 
 ### Rules
 

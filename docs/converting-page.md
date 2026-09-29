@@ -52,5 +52,5 @@ Method: Matt Lerner, *Finding Language/Market Fit*, First Round Review.
   headline. One page variant per channel (`/new-page`, `?ref=`).
 - **Specific beats clever.** Numbers, names of things, the real price.
 - **Fast and light on a phone:** compressed photos, minimal navigation.
-- **Measured:** views → ask clicks → confirmed asks, per channel. Change one
-  thing at a time and watch the numbers.
+- **Measured:** visitors → engaged → clicked → confirmed, per channel
+  (`measure.md`). Change one thing at a time and watch the stage it targets.
