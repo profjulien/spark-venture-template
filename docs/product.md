@@ -56,8 +56,8 @@ Same Supabase project. Claude adds, one feature at a time:
 - **Product tables** — each with row-level security, so every user reads
   and writes their own rows only.
 - **File uploads** — Supabase Storage, with the same per-user rules.
-- **Server work** — Supabase Edge Functions for anything the browser must
-  not do: payment webhooks, emails, scheduled jobs.
+- **Server work** — Supabase Edge Functions for anything that needs a
+  secret key: payment webhooks, emails, scheduled jobs.
 
 Every table change goes in a new file under `supabase/`, so the repo holds
 the full history of the database.
