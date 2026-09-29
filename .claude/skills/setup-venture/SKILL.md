@@ -43,4 +43,4 @@ The page can only be as sharp as this section. Take the time.
    week's metric in the form *"By [day] we will have asked N [segment]; M
    will have [done the ask]."*). Commit: `Venture memory v1`.
 
-Tell the team what to do next: `docs/setup.md`, step 1.
+Tell the team what to do next: `docs/setup.md`, step 1 — the design system.
