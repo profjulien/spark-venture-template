@@ -1,4 +1,5 @@
-/* Rebrand from the tokens below; the rest follows. */
+/* The look comes from your Claude Design system: its tokens go in :root
+   below, its fonts in a <link> in each page's <head>. The rest follows. */
 :root {
   --brand: #1f4e79;
   --brand-ink: #ffffff;

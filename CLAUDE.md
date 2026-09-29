@@ -23,6 +23,7 @@
   - [INFERENCE] …
   - [UNKNOWN] …
 - **Voice on the page:** [how the segment talks · words to use · words to avoid]
+- **Design system:** [Claude Design link] — snapshot in `design/`
 - **Live page:** [https://….pages.dev]
 - **Payment provider:** see `site/config.js`.
 
@@ -30,10 +31,11 @@
 
 ## How we build
 
-### The stack — five jobs, one tool each
+### The stack — six jobs, one tool each
 
 | Job | Tool | Where it shows up here |
 |---|---|---|
+| Design | Claude Design | the design system (look) and canvas (mockups), on claude.ai |
 | Write | Claude Code | this conversation |
 | Remember | GitHub | this repo — every file, every version |
 | Publish | Cloudflare Pages | serves the `site/` folder; every push to `main` goes live |
@@ -51,6 +53,7 @@
 | `evidence/spend.csv` + `evidence/receipts/` | team spend — what ESSEC matches |
 | `site/` | the live site: plain HTML, CSS, JS |
 | `site/config.js` | the one settings file: payment link, Supabase address and key |
+| `design/` | snapshot of the design system: `brand.md`, `tokens.json` |
 | `supabase/schema.sql` | the database tables and their access rules |
 | `docs/` | setup steps, hosting, payments, the why |
 
@@ -79,7 +82,12 @@
    Supabase only.
 10. **Logins and dashboards belong to the team.** When a step needs one, give
     the exact clicks and wait for the team to confirm.
-11. **Programme vocabulary:** segment · assumption · give and ask · metric ·
+11. **The look comes from the design system.** Before building or restyling
+    a page, read the design system (its `README.md` and `tokens.json`; if
+    the link is unreachable, the snapshot in `design/`). Map its tokens into
+    the `:root` variables of `site/styles.css`, load its fonts, use real
+    photos from `site/img/`. Refresh the snapshot whenever the system changes.
+12. **Programme vocabulary:** segment · assumption · give and ask · metric ·
     EVIDENCE / INFERENCE / UNKNOWN · responded / committed / paid.
 
 ### Skills

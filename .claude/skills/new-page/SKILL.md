@@ -6,7 +6,11 @@ description: Build a new page or a variant of the deposit page — for a channel
 # Build a page
 
 1. **Read** `CLAUDE.md`, `project-state.md` and the list of files in
-   `evidence/`.
+   `evidence/`. Then read the **design system** named in `CLAUDE.md` — its
+   `README.md` and `tokens.json` — or the snapshot in `design/`. No design
+   system yet: stop and point the team to `docs/design.md`.
+   A design handed off from Claude Design: start from it, keep its look,
+   and wire it to this repo (next steps).
 
 2. **Ask three things** (skip any the team already said):
    - Who arrives here, and from where? (the channel)
@@ -14,7 +18,9 @@ description: Build a new page or a variant of the deposit page — for a channel
    - What is this page testing? (a headline, a segment, a channel)
 
 3. **Build** `site/<short-name>.html` from `site/index.html` — same
-   `styles.css`, `config.js`, `app.js`, footer and policy links. Keep the
+   `styles.css`, `config.js`, `app.js`, footer and policy links. Apply the
+   design system: its colours and type in the `:root` variables, its fonts,
+   its layout guidance; product photos from `site/img/`, sized for phones. Keep the
    deposit buttons as `data-deposit` so the payment link stays in one place.
 
 4. **Copy rules.**
@@ -23,8 +29,12 @@ description: Build a new page or a variant of the deposit page — for a channel
    - Every claim traces to `evidence/`. Quotes verbatim, with permission.
    - Where the evidence is thin, write less.
 
-5. **Preview.** Open the page locally (the `site` preview in the desktop app,
-   or open the file). Check it at phone width.
+5. **Preview and review.** Open the page locally (the `site` preview in the
+   desktop app, or open the file). Screenshot it at phone and desktop width
+   and check it against the design system and these four: in five seconds,
+   who is it for, what is it, what do I do? · the deposit button visible
+   without scrolling on a phone · proof next to the button · real photos.
+   Fix the three biggest gaps, then show the team.
 
 6. **Report** to the team:
    - the page's address once published: `https://<project>.pages.dev/<short-name>.html?ref=<channel>`;

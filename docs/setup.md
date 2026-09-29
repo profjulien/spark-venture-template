@@ -1,4 +1,4 @@
-# First setup — about 40 minutes
+# First setup — about an hour
 
 Do these in order. Claude can walk you through each one: say
 *"walk me through step N of docs/setup.md"*.
@@ -8,7 +8,13 @@ Do these in order. Claude can walk you through each one: say
 Run **`/setup-venture`**. Have your Demo Day page and your single proposition
 ready. It fills *The venture* in `CLAUDE.md` and drafts the page copy.
 
-## 1. Database — Supabase · 10 min
+## 1. The look — Claude Design · 20 min
+
+Follow [`design.md`](design.md): build your design system from your
+references and photos, mock the top of the page, and put the link in
+`CLAUDE.md`. Then ask Claude to apply it to the page.
+
+## 2. Database — Supabase · 10 min
 
 1. supabase.com → **New project**. Name: your venture. Region: the one
    closest to your customers (Singapore or Mumbai). Save the database password
@@ -22,7 +28,7 @@ ready. It fills *The venture* in `CLAUDE.md` and drafts the page copy.
 Free projects pause after about a week idle. Page traffic keeps
 yours awake; if it sleeps, press **Restore** in the dashboard.
 
-## 2. Hosting — Cloudflare Pages · 10 min
+## 3. Hosting — Cloudflare Pages · 10 min
 
 1. `/publish` once, so your latest work is on GitHub.
 2. dash.cloudflare.com → **Workers & Pages → Create → Pages →
@@ -35,7 +41,7 @@ yours awake; if it sleeps, press **Restore** in the dashboard.
 From now on, every push to `main` goes live in about a minute.
 Details and plan B: [`hosting.md`](hosting.md).
 
-## 3. Payment link — Stripe sandbox · 10 min
+## 4. Payment link — Stripe sandbox · 10 min
 
 1. Stripe dashboard, **sandbox** on → **Payment Links → New.**
 2. Product: *Refundable deposit — [what it reserves]*. Price: your deposit.
@@ -51,7 +57,7 @@ Using Razorpay, Xendit or manual transfers instead: [`payments.md`](payments.md)
 
 ## Done when
 
-- [ ] The live page opens on your phone.
+- [ ] The live page opens on your phone, and looks like your design system.
 - [ ] A test lead shows up in Supabase.
 - [ ] A sandbox payment lands on `thanks.html`.
 - [ ] `/wrap-up` has recorded the live address.

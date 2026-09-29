@@ -1,17 +1,18 @@
 # How this works, and why
 
-## Five jobs, one tool each
+## Six jobs, one tool each
 
 | Job | Tool | What it fixes |
 |---|---|---|
+| Design | Claude Design | a page that looks like every other AI-made page |
 | Write | Claude Code | code copied between chats; every session starting from zero |
 | Remember | GitHub | a single copy on one laptop, and every mistake permanent |
 | Publish | Cloudflare Pages | a page only you can see |
 | Store | Supabase | leads scattered across inboxes, and a guessed count |
 | Collect | Stripe (or your local provider) | interest in place of payment — and the milestone counts payment |
 
-The chain in one line: **Claude writes, GitHub remembers, Cloudflare
-publishes, Supabase stores, Stripe collects.**
+The chain in one line: **Claude Design sets the look, Claude Code writes,
+GitHub remembers, Cloudflare publishes, Supabase stores, Stripe collects.**
 
 ## The one idea: memory lives in the repo
 
