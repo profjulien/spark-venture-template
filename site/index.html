@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[Venture name] — [the progress, in five words]</title>
+  <meta name="description" content="[One sentence: for whom, what, so they can what.]">
+  <meta property="og:title" content="[Venture name] — [the progress, in five words]">
+  <meta property="og:description" content="[One sentence: for whom, what, so they can what.]">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--
+  STARTER PAGE. /setup-venture and /new-page replace every [bracket] with copy
+  from CLAUDE.md and evidence/. /publish lists any bracket still left.
+  Section order: promise → struggle → what you get → proof → deposit → list → FAQ.
+-->
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/">[Venture name]</a>
+    <a href="#deposit">Reserve</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>[Headline: the progress your segment wants, in their words]</h1>
+      <p class="lead">[One or two lines: who it is for, what it is, and why now.]</p>
+      <div class="cta-row">
+        <a class="button" data-deposit>Reserve yours — [amount] refundable deposit</a>
+        <a class="button ghost" href="#list">Join the list</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="soft">
+    <div class="wrap">
+      <h2>[The struggle, named the way they name it]</h2>
+      <p>[Two or three sentences describing the situation. Use phrases from your interviews.]</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What you get</h2>
+      <div class="grid three">
+        <div class="card"><h3>[Benefit 1]</h3><p class="muted">[One line.]</p></div>
+        <div class="card"><h3>[Benefit 2]</h3><p class="muted">[One line.]</p></div>
+        <div class="card"><h3>[Benefit 3]</h3><p class="muted">[One line.]</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="soft">
+    <div class="wrap">
+      <h2>What people told us</h2>
+      <div class="grid">
+        <blockquote>
+          <p>“[Verbatim quote from evidence/, used with permission.]”</p>
+          <cite>— [First name, role or context]</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="deposit">
+    <div class="wrap">
+      <h2>How the deposit works</h2>
+      <ul class="terms">
+        <li><span>Deposit</span><span>[amount + currency]</span></li>
+        <li><span>Reserves</span><span>[what, exactly]</span></li>
+        <li><span>Delivery</span><span>[window]</span></li>
+        <li><span>Refund</span><span>[Full refund on request until …]</span></li>
+      </ul>
+      <a class="button" data-deposit>Pay the [amount] deposit</a>
+      <div id="manual-payment" class="notice" hidden>
+        <h3>How to pay</h3>
+        <p data-manual-text></p>
+        <p class="muted">We confirm every payment by email within 24 hours.</p>
+      </div>
+      <p class="muted" style="margin-top:16px">Full terms in our <a href="policies.html#refunds">refund policy</a>.</p>
+    </div>
+  </section>
+
+  <section id="list" class="soft">
+    <div class="wrap">
+      <h2>Rather wait and see?</h2>
+      <p class="muted">Join the list. We write when [the next milestone for the customer].</p>
+      <form id="lead-form" novalidate>
+        <label>Name <input name="name" autocomplete="name" required></label>
+        <label>Email <input name="email" type="email" autocomplete="email" required></label>
+        <label>[One question worth asking — e.g. “What do you use today?”]
+          <textarea name="note" rows="3"></textarea>
+        </label>
+        <label class="hp" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+        <p class="consent">We email you about [Venture name] only. Unsubscribe anytime. <a href="policies.html#privacy">Privacy</a>.</p>
+        <div><button class="button" type="submit">Keep me posted</button></div>
+        <p data-status aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Questions</h2>
+      <details><summary>[Question people asked in interviews]</summary><p>[Answer.]</p></details>
+      <details><summary>What if I change my mind?</summary><p>[Refund terms in one sentence.]</p></details>
+      <details><summary>Who is behind this?</summary><p>[Founders, one line each, and where you are based.]</p></details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© [year] [Venture name]</span>
+    <a href="policies.html#refunds">Refunds</a>
+    <a href="policies.html#terms">Terms</a>
+    <a href="policies.html#privacy">Privacy</a>
+    <a href="policies.html#contact">Contact</a>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

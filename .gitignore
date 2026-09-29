@@ -1,0 +1,10 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# System and tooling
+.DS_Store
+node_modules/
+.wrangler/
+*.log
