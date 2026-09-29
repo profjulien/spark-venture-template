@@ -5,7 +5,7 @@ Do these in order. Claude can walk you through each one: say
 
 ## 0. Venture memory · 10 min
 
-Run **`/setup-venture`**. Have your venture brief and your single proposition
+Run **`/setup-venture`**. Have your Demo Day page and your single proposition
 ready. It fills *The venture* in `CLAUDE.md` and drafts the page copy.
 
 ## 1. The look — Claude Design · 20 min

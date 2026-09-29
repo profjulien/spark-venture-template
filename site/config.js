@@ -1,7 +1,7 @@
 // The one settings file. Change payment and database settings here only.
 // Everything in this file is public — secret keys belong in .env.
 
-window.SITE_CONFIG = {
+window.SPARK_CONFIG = {
   venture: "[Venture name]",
 
   payments: {
