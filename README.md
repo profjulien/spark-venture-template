@@ -20,3 +20,4 @@ After that, the loop is: **`/new-page` → preview → `/publish` → `/wrap-up`
 - [`docs/design.md`](docs/design.md) — the look, with Claude Design
 - [`docs/payments.md`](docs/payments.md) — Stripe, and how to swap it
 - [`docs/hosting.md`](docs/hosting.md) — Cloudflare Pages, plus plan B
+- [`docs/product.md`](docs/product.md) — your product, on the same stack

@@ -14,6 +14,9 @@
 Cloudflare's dashboard steers new projects toward *Workers*. Choose the
 **Pages** tab when creating the project.
 
+Your product gets a second Cloudflare project from the same repo:
+[`product.md`](product.md).
+
 ## Plan B
 
 Both connect to the same GitHub repo. Switching takes minutes.
