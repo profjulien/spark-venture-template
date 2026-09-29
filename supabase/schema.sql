@@ -1,4 +1,4 @@
--- Spark venture database. Paste into Supabase → SQL Editor → Run. Run once.
+-- Venture database. Paste into Supabase → SQL Editor → Run. Run once.
 --
 -- Three tables:
 --   leads     people who joined the list        (the page adds rows)

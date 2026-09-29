@@ -1,6 +1,6 @@
 ---
 name: setup-venture
-description: First-run setup. Turns the team's Demo Day page and pre-work answers into "The venture" section of CLAUDE.md, then drafts the starter page copy. Use once at the start, and again when the single proposition changes.
+description: First-run setup. Turns the team's venture brief and answers into "The venture" section of CLAUDE.md, then drafts the starter page copy. Use once at the start, and again when the single proposition changes.
 ---
 
 # Set up the venture memory
@@ -8,7 +8,8 @@ description: First-run setup. Turns the team's Demo Day page and pre-work answer
 The page can only be as sharp as this section. Take the time.
 
 1. **Collect.** Ask the team for:
-   - the Demo Day page (file, link or pasted text);
+   - the venture brief — any one-pager: pitch page, canvas, notes (file,
+     link or pasted text);
    - the single proposition, one sentence;
    - the deposit: amount, currency, what it reserves, refund terms, delivery
      window — or, for a B2B pilot, the feature scope, what the client
@@ -16,13 +17,13 @@ The page can only be as sharp as this section. Take the time.
    - the founders' names and the city each is based in;
    - 3–5 visuals, if they have them (save into `site/img/`).
 
-2. **Save the source.** Write the Demo Day page to
-   `evidence/demo-day-page.md`. Save any interview notes they paste as
+2. **Save the source.** Write the venture brief to
+   `evidence/brief.md`. Save any interview notes they paste as
    `evidence/interview-YYYY-MM-DD-firstname.md`.
 
 3. **Draft *The venture*** in `CLAUDE.md`. Fill every bracket. Label each
    evidence line EVIDENCE, INFERENCE (a hint or our reading) or UNKNOWN.
-   Use the rubric's words for strength of proof: responded · committed · paid.
+   Rate strength of proof as responded · committed · paid.
 
 4. **One proposition.** If the team brings two, stop and ask them to choose.
    Park the other in `project-state.md` under *Parked*.

@@ -10,14 +10,14 @@
 ## The venture
 
 - **Team:** [names — and the city each founder is based in]
-- **Segment:** [who, specifically — narrow enough to find 50 of them]
+- **Segment:** [who, specifically — narrow enough to reach by name]
 - **Struggle:** [the situation they are in, in their words]
 - **Single proposition:** For [segment], [product], so they can [progress].
 - **The deposit:** [amount + currency] reserves [what]. Refundable [terms].
   Delivery [window].
   <!-- B2B teams: replace with **The pilot ask:** feature scope · what the
   client commits to (deploy and test once ready) · who signs. -->
-- **Milestone:** [10 paid deposits | 1 signed pilot] by [date]. Next: [50 | 3 accounts].
+- **Milestone:** [the proof you need next — e.g. N paid deposits, a signed pilot] by [date]. Then: [the milestone after].
 - **Evidence so far** — every line labelled EVIDENCE · INFERENCE · UNKNOWN:
   - [EVIDENCE] …
   - [INFERENCE] …
@@ -48,9 +48,9 @@
 |---|---|
 | `CLAUDE.md` | stable memory: the venture + these rules |
 | `project-state.md` | moving memory: counts, this week's metric, next action |
-| `evidence/` | interviews, quotes, screenshots, the Demo Day page |
+| `evidence/` | interviews, quotes, screenshots, the venture brief |
 | `evidence/deposits.csv` | every deposit, any provider — the milestone count |
-| `evidence/spend.csv` + `evidence/receipts/` | team spend — what ESSEC matches |
+| `evidence/spend.csv` + `evidence/receipts/` | team spend, with receipts |
 | `site/` | the live site: plain HTML, CSS, JS |
 | `site/config.js` | the one settings file: payment link, Supabase address and key |
 | `design/` | snapshot of the design system: `brand.md`, `tokens.json` |
@@ -87,14 +87,14 @@
     the link is unreachable, the snapshot in `design/`). Map its tokens into
     the `:root` variables of `site/styles.css`, load its fonts, use real
     photos from `site/img/`. Refresh the snapshot whenever the system changes.
-12. **Programme vocabulary:** segment · assumption · give and ask · metric ·
+12. **Shared vocabulary:** segment · assumption · give and ask · metric ·
     EVIDENCE / INFERENCE / UNKNOWN · responded / committed / paid.
 
 ### Skills
 
 | Command | Does |
 |---|---|
-| `/setup-venture` | builds *The venture* section from the Demo Day page — run once |
+| `/setup-venture` | builds *The venture* section from the venture brief — run once |
 | `/new-page` | builds a page or a channel variant from this file and `evidence/` |
 | `/publish` | checks, commits, pushes, and confirms the change is live |
 | `/log` | records a deposit or a team expense in the ledgers |

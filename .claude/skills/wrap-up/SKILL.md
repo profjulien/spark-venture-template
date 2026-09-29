@@ -28,4 +28,4 @@ description: End-of-session save. Updates project-state.md with counts, this wee
 4. **Commit and push.** Message: `Session YYYY-MM-DD: <one line>`.
 
 5. **Tell the team** the next action and the metric, in two lines — ready to
-   paste into the Spark WhatsApp group.
+   paste into your team or programme channel.
