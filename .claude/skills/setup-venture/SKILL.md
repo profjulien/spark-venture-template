@@ -7,7 +7,10 @@ description: First-run setup. Turns the team's Demo Day page and pre-work answer
 
 The page can only be as sharp as this section. Take the time.
 
-1. **Collect.** Ask the team for:
+1. **Collect.** Start with what is already in the repo: `phase1/` (the
+   Phase 1 Venture Folder — `venture_context.md`, `venture_memory.md`,
+   `traction_log.md`, `week0/`) and `evidence/`. Read all of it. Then ask
+   the team only for what is still missing:
    - the Demo Day page (file, link or pasted text);
    - the single proposition, one sentence;
    - the deposit: amount, currency, what it reserves, refund terms, delivery
