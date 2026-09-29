@@ -22,7 +22,7 @@ for visitors who want to wait.
 
 ## Setting it up
 
-**`signup`** — nothing to connect beyond Supabase (`docs/setup.md`). The
+**`signup`** — Supabase is all it needs (`docs/setup.md`). The
 button scrolls to the form.
 
 **`form`** — build the form in Tally or Google Forms with the questions a
