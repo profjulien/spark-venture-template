@@ -25,10 +25,13 @@ description: Build a new page or a variant of the deposit page — for a channel
    deposit buttons as `data-deposit` so the payment link stays in one place.
 
 4. **Copy rules.**
-   - Speak to the channel's visitor in the segment's words (*Voice on the
-     page* in `CLAUDE.md`).
+   - Write from `evidence/language.md`: the customers' own phrases, lightly
+     trimmed. Draft five headlines as "Now you can…" in their words; show
+     the team all five and let them pick.
    - Every claim traces to `evidence/`. Quotes verbatim, with permission.
-   - Where the evidence is thin, write less.
+   - Cut every platitude and every word on the *Our jargon* list.
+   - Where the language bank is thin, write less, and tell the team which
+     canvas heading needs more interviews.
 
 5. **Preview and review.** Open the page locally (the `site` preview in the
    desktop app, or open the file). Screenshot it at phone and desktop width
