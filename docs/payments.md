@@ -49,6 +49,10 @@ instructions.
 Test before you share: one sandbox payment end to end, then one real payment
 from a teammate, refunded.
 
+**Before collecting real deposits:** the offer, the delivery window and the
+refund terms are written on the page and in `policies.html`. Sandbox
+payments prove the plumbing works; real payments are the evidence of demand.
+
 ## Level 2 — automatic logging (after the first 10)
 
 When you move from 10 to 50, logging by hand gets slow. Level 2 replaces the

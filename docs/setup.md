@@ -62,10 +62,19 @@ redirect it to `…/thanks.html`, paste it into `ask.link`, `/publish`. For a
 
 Using Razorpay, Xendit or manual transfers instead: [`payments.md`](payments.md).
 
-## Done when
+## Setup complete, then ready to launch
+
+**Setup complete** means the tools are installed and connected (the setup
+check). **Ready to launch** means customers can say yes. Sandbox payments
+test the plumbing; demand shows only in real payments. Switch to live once
+every box is ticked:
 
 - [ ] The live page opens on your phone, and looks like your design system.
-- [ ] A test lead shows up in Supabase.
-- [ ] The ask works end to end: a sandbox payment, a test booking or a
-      test form lands on `thanks.html`.
+- [ ] Your own visit shows up in `funnel_daily`; a test lead in `leads`.
+- [ ] The ask works end to end in test mode: a sandbox payment, a test
+      booking or a test form lands on `thanks.html`.
+- [ ] The offer, the delivery window and the refund or cancellation terms
+      are written on the page and in `policies.html`.
+- [ ] Live mode on: one real payment from a teammate, then refunded.
 - [ ] `/wrap-up` has recorded the live address.
+- [ ] Then share it: each channel gets its own `?ref=` link.

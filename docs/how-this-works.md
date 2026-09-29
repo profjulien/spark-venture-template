@@ -52,7 +52,8 @@ break, and a page that loads fast on a phone on mobile data. You can graduate to
 
 ## What it costs
 
-All free at this scale:
+Free tiers cover the first weeks of a small page. Costs start with payment
+fees, a domain, and paid plans once traffic or storage grows:
 
 - **Cloudflare Pages** — 500 publishes a month, page traffic free.
 - **Supabase** — free project; it pauses after about a week idle.

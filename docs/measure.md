@@ -6,19 +6,26 @@ turn it into a funnel you can read in one glance.
 
 ## The funnel
 
-```
-visitors → engaged → clicked → leads → confirmed
-```
+Visits and clicks are tracked automatically. You record confirmed asks with
+`/log`. At the end of each session, `/wrap-up` updates the team's progress
+summary in `project-state.md`.
 
-| Stage | Counted when | Tells you |
+**Main path:** `visitors → ask clicks → confirmed`
+
+| Count | Made | If it is low, possible explanations to investigate |
 |---|---|---|
-| **visitors** | the page loads (`page_view`) | whether the channel brings people |
-| **engaged** | half the page scrolled, or 15 seconds in view (`engaged`) | whether the top of the page holds them |
-| **clicked** | a click on the ask button (`cta_click`) | whether the offer pulls |
-| **leads** | a list sign-up (`lead`, and a row in `leads`) | a softer yes |
-| **confirmed** | a paid deposit, a call held, a form signed — recorded with `/log` | the milestone |
+| **visitors** | automatically, on page load (`page_view`) | the channel, the message that carried the link, the timing |
+| **ask clicks** | automatically, on each click of the ask button (`cta_click`) | the offer, the price, trust in the page, the headline |
+| **confirmed** | by you, with `/log` (or a webhook at Level 2) | payment or booking friction, price, trust, timing, your follow-up |
 
-Visitors, engaged and clicked count **people**, once each, through an
+**Other route:** `visitors → list sign-ups → your follow-up → confirmed`.
+Sign-ups are tracked automatically (`lead`); the follow-up is yours.
+
+**Supporting signal:** `engaged` — half the page scrolled, or 15 seconds in
+view. A hint about the top of the page; read it next to clicks and
+confirmed asks.
+
+Visitors, engaged and ask clicks count **people**, once each, through an
 anonymous id kept in their browser. Confirmed comes from
 `evidence/commitments.csv` (import it into the `commitments` table to see
 it in the views) or, at Level 2, from a webhook.
@@ -27,23 +34,15 @@ it in the views) or, at Level 2, from a webhook.
 
 Supabase → **Table Editor**:
 
-- **`funnel_by_source`** — one row per channel, with `clicked_pct` and
-  `confirmed_pct`. This is the view that tells you where to spend next week.
+- **`funnel_by_source`** — one row per channel: raw counts, then
+  `clicked_pct` and `confirmed_pct`.
 - **`funnel_daily`** — one row per day. Watch it after every change to the
   page.
 
-What the stages point to:
-
-- Few visitors → the channel. Post elsewhere, or ask more people directly.
-- Visitors, few engaged → the top of the page. Rewrite the headline in the
-  customers' words (`converting-page.md`).
-- Engaged, few clicks → the offer. Revisit the give and the ask
-  (`the-ask.md`).
-- Clicks, few confirmed → the step after the click: the payment page, the
-  calendar, the form, or your follow-up.
-
-With small numbers, read people over percentages: 2 of 30 and 4 of 30 are
-the same result. Change one thing at a time.
+Report **raw counts next to rates**: 2 of 30 is a count first, and with
+small numbers 2 of 30 and 4 of 30 are the same result. A low number points
+to several possible explanations; test one at a time, and change one thing
+at a time.
 
 ## Channels
 
@@ -74,9 +73,10 @@ team defines for its own product.
 
 ## Privacy
 
-No cookies, no personal data in the events: a random id in the visitor's
-browser, the page, the channel, the device type. The privacy policy says
-so in one line. Emails exist only in `leads`, from people who gave them.
+Visitor tracking stores four things: a random id kept in the visitor's
+browser, the page, the channel and the device type. Names and emails exist
+only in `leads`, for people who join the list. The privacy policy says so
+in one line.
 
 ## Cross-checks and next steps
 
