@@ -2,7 +2,7 @@
 // funnel events (page views and deposit clicks) that land in Supabase.
 
 (function () {
-  const cfg = window.SPARK_CONFIG || {};
+  const cfg = window.SITE_CONFIG || {};
   const pay = cfg.payments || {};
   const db = cfg.supabase || {};
 
@@ -11,8 +11,8 @@
   const params = new URLSearchParams(location.search);
   let source = params.get("utm_source") || params.get("ref") || "";
   try {
-    if (source) sessionStorage.setItem("spark_source", source);
-    else source = sessionStorage.getItem("spark_source") || "";
+    if (source) sessionStorage.setItem("visit_source", source);
+    else source = sessionStorage.getItem("visit_source") || "";
   } catch (e) {}
   if (!source && document.referrer) {
     try { source = new URL(document.referrer).hostname; } catch (e) {}
@@ -23,7 +23,7 @@
 
   function insert(table, row) {
     if (!dbReady) {
-      console.info(`[spark] Supabase is not connected yet — ${table} row:`, row);
+      console.info(`[site] Supabase is not connected yet — ${table} row:`, row);
       return Promise.resolve({ ok: false, reason: "not-connected" });
     }
     const headers = {
@@ -98,7 +98,7 @@
       } else if (result.reason === "not-connected") {
         status.textContent = "Preview mode: connect Supabase in site/config.js to save this.";
       } else {
-        console.warn("[spark] lead not saved:", result.reason);
+        console.warn("[site] lead not saved:", result.reason);
         status.textContent = "That didn't go through. Please try again, or email us.";
       }
     });

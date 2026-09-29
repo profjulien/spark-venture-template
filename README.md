@@ -1,6 +1,6 @@
-# Spark venture template
+# Venture build template
 
-The build setup for ESSEC Spark APAC, Phase 2. One repo per venture: your
+A build setup for early-stage ventures. One repo per venture: your
 site, your evidence, your ledgers, and the memory Claude reads every session.
 
 ## Start
@@ -8,7 +8,7 @@ site, your evidence, your ledgers, and the memory Claude reads every session.
 1. **Use this template → Create a new repository.** Private. Name it after
    your venture. Add your co-founder under *Settings → Collaborators*.
 2. Open the repo in Claude Code and run **`/setup-venture`**. It turns your
-   Demo Day page into the venture memory in `CLAUDE.md`.
+   venture brief into the venture memory in `CLAUDE.md`.
 3. Follow [`docs/setup.md`](docs/setup.md): design system, database,
    hosting, payment link. About an hour the first time.
 

@@ -4,7 +4,7 @@ _Updated: [date] by [name]_
 
 ## Now
 
-- **Milestone:** [10 paid deposits | 1 signed pilot] by [date]
+- **Milestone:** [the proof you need next] by [date]
 - **Count:** [0] paid · [0] refunded — from `evidence/deposits.csv`
 - **Funnel this week:** [views] → [deposit clicks] → [leads] — from Supabase
 - **Live page:** [https://….pages.dev]

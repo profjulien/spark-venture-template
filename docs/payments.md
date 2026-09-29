@@ -20,7 +20,7 @@ It depends on where the **founder who holds the account** lives and banks.
 
 Activation takes days. Start it early and use `manual` meanwhile.
 
-## Level 1 — a payment link (now)
+## Level 1 — a payment link (to start)
 
 **Stripe**
 1. Sandbox on → **Payment Links → New.** Product: *Refundable deposit —
@@ -48,9 +48,9 @@ instructions.
 Test before you share: one sandbox payment end to end, then one real payment
 from a teammate, refunded.
 
-## Level 2 — automatic logging (after the first 10)
+## Level 2 — automatic logging (when volume grows)
 
-When you move from 10 to 50, logging by hand gets slow. Level 2 replaces the
+When deposits outgrow logging by hand, Level 2 replaces the
 link with Stripe Checkout and a webhook that writes each payment into the
 Supabase `deposits` table — same columns as `deposits.csv`, any provider.
 It needs secret keys in `.env` and a small server function. Ask Claude to
