@@ -1,7 +1,9 @@
 # Spark setup — one prompt
 
-Open Claude Code (desktop app, Code tab; or claude.ai/code in the browser),
-start a new session, paste the prompt below, and follow along. Claude does
+Create a new, empty folder (for example `spark-setup` in your home folder),
+outside Google Drive, Dropbox and your Phase 1 Venture Folder. Open Claude
+Code on it (desktop app, Code tab; or claude.ai/code in the browser), start
+a new session, paste the prompt below, and follow along. Claude does
 the technical steps and walks you through every sign-up. Each founder runs
 it once: one creates the team setup, the other joins it.
 
@@ -48,7 +50,9 @@ Then work through these in order, and report ✅ or ❌ after each:
    - Manual transfer, or the other founder holds the account: mark ✅.
 
 Finish with five lines on what now exists (repo address, local folder,
-accounts, payment set-up, anything pending), then exactly one line:
+accounts, payment set-up, anything pending). Remind me that from now on I
+open Claude Code on the Spark folder: the team's memory and the /commands
+live there. Then end with exactly one line:
 SETUP <my first name>: N/6 green — <anything still red>
 ```
 
@@ -60,6 +64,9 @@ SETUP <my first name>: N/6 green — <anything still red>
   login.
 - A payment account under way: Stripe in sandbox, connected to Claude
   Code, or Razorpay or Xendit activation started.
+
+From now on, open Claude Code on `~/Spark`: the team's memory and the
+`/commands` live there. The empty folder you started in can go.
 
 Next: `docs/setup.md` takes you from **Setup complete** to **Ready to
 launch** — design system, database, hosting, and the ask.
