@@ -42,14 +42,14 @@ What the stages point to:
 - Clicks, few confirmed → the step after the click: the payment page, the
   calendar, the form, or your follow-up.
 
-With small numbers, read people, not percentages: 2 of 30 and 4 of 30 are
+With small numbers, read people over percentages: 2 of 30 and 4 of 30 are
 the same result. Change one thing at a time.
 
 ## Channels
 
 Every link you post carries its channel: `?ref=linkedin`, `?ref=wa-group`,
-`?ref=fair`. Without one, the page records the referring site, or
-`direct`. Use the same codes in the `channel` column when you `/log` a
+`?ref=fair`. For a link with no code, the page records the referring
+site, or `direct`. Use the same codes in the `channel` column when you `/log` a
 commitment, so the two meet in `funnel_by_source`.
 
 Stripe payment links also carry the visitor's id back
