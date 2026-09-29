@@ -38,7 +38,8 @@ instructions: see [`payments.md`](payments.md). Set `ask.provider`.
 
 ## Counting
 
-The page counts clicks on the ask by itself (`cta_click` in Supabase). What
+The page counts visits, engagement and clicks on the ask by itself
+([`measure.md`](measure.md)). What
 counts toward the milestone is the **confirmed** ask — money received, a
 call held, a form signed. Record each one with `/log` in
 `evidence/commitments.csv`: one row per commitment, whatever its kind.

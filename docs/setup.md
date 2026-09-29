@@ -23,7 +23,9 @@ references and photos, mock the top of the page, and put the link in
 3. **Project Settings → API Keys.** Copy the **Project URL** and the
    **publishable key** into `site/config.js`.
 4. Check: open `site/index.html`, submit the form with your own email, then
-   look in **Table Editor → leads**. Your row is there.
+   look in **Table Editor → leads**. Your row is there, and
+   **funnel_daily** shows you as one visitor. What the funnel measures:
+   [`measure.md`](measure.md).
 
 Free projects pause after about a week idle. Page traffic keeps
 yours awake; if it sleeps, press **Restore** in the dashboard.

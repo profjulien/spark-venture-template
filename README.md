@@ -20,6 +20,7 @@ After that, the loop is: **`/new-page` → preview → `/publish` → `/wrap-up`
 - [`docs/converting-page.md`](docs/converting-page.md) — how a page that sells is built
 - [`docs/design.md`](docs/design.md) — the look, with Claude Design
 - [`docs/the-ask.md`](docs/the-ask.md) — what the page asks for: signup, form, booking or payment
+- [`docs/measure.md`](docs/measure.md) — the funnel: visitors to confirmed, per channel
 - [`docs/payments.md`](docs/payments.md) — Stripe, and how to swap it
 - [`docs/hosting.md`](docs/hosting.md) — Cloudflare Pages, plus plan B
 - [`docs/product.md`](docs/product.md) — your product, on the same stack
