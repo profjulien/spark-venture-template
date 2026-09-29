@@ -25,8 +25,8 @@ your own.
 
 ## 2. The top of the page · 10 min
 
-claude.ai → **Design → Design.** Ask for the top of your deposit page —
-headline, photo, deposit button — in **two or three directions**, phone
+claude.ai → **Design → Design.** Ask for the top of your page —
+headline, photo, ask button — in **two or three directions**, phone
 size first, using your design system. Pick one with your co-founder; comment
 on the canvas to refine it.
 
@@ -42,7 +42,7 @@ on the canvas to refine it.
   > working.*
 
 Claude Code then builds the real page in `site/` — the one that takes
-deposits and counts visits. The canvas stays your drawing board.
+the ask and counts visits. The canvas stays your drawing board.
 
 ## When the look changes
 

@@ -6,9 +6,10 @@ description: End-of-session save. Updates project-state.md with counts, this wee
 # Wrap up
 
 1. **Count.**
-   - Deposits: paid minus refunded, from `evidence/deposits.csv`.
+   - Commitments: confirmed rows, by kind and by channel, from
+     `evidence/commitments.csv`.
    - Funnel: ask the team to open Supabase → **Table Editor →
-     funnel_by_day** and read out this week's views, deposit clicks and
+     funnel_by_day** and read out this week's views, ask clicks and
      leads. Record what they say.
 
 2. **Update `project-state.md`:**
@@ -22,7 +23,7 @@ description: End-of-session save. Updates project-state.md with counts, this wee
    - *Blocked / waiting on*: anything outside the team's hands.
 
 3. **Update `CLAUDE.md`** only if a stable fact changed: the proposition, the
-   deposit terms, the segment, or an evidence line moving from UNKNOWN to
+   ask and its terms, the segment, or an evidence line moving from UNKNOWN to
    EVIDENCE. Say which lines changed.
 
 4. **Commit and push.** Message: `Session YYYY-MM-DD: <one line>`.

@@ -14,10 +14,10 @@ description: Check, commit and push the site so Cloudflare publishes it, then co
      `sb_secret_`, and any `.env` file. Any hit: remove it and explain why.
    - **Brackets:** list any `[…]` placeholder left in `site/*.html`. Ask
      whether to fill or remove each one.
-   - **Links:** every page links to `policies.html` and every deposit
-     button carries `data-deposit`.
-   - **Payment:** `site/config.js` has a provider, and either a
-     `depositLink` or, for `manual`, `manualInstructions`.
+   - **Links:** every page links to `policies.html` and every ask
+     button carries `data-ask`.
+   - **The ask:** `site/config.js` has an `ask.type`, and a `link` — except
+     for `signup`, and for a `manual` payment, which needs `instructions`.
 
 3. **Commit** with a message that says what changed and why, e.g.
    `Headline uses the customer's own words; LinkedIn variant added`.
@@ -27,6 +27,6 @@ description: Check, commit and push the site so Cloudflare publishes it, then co
 
 5. **Confirm it is live.** Wait about a minute. Fetch the live address from
    `CLAUDE.md` (*Live page*) and check the change is there. Ask the team to
-   open it on a phone and click the deposit button once.
+   open it on a phone and click the ask button once.
 
 6. **Record** the publish in `project-state.md` under *Last session*.
