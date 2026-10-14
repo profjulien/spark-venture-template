@@ -292,9 +292,14 @@ On or after the read date:
    - **Rethink:** zero yeses from enough people asked (step 5's number).
      The assumption is
      false as written. Go back to step 3 with this result in the audit.
-4. **Ask the people who acted one question**, within 24 hours of their
-   commitment: *what almost stopped you?* Add their answers, verbatim, to
-   `evidence/language.md`.
+4. **Talk to everyone who committed**, in a real conversation — a call or
+   a meeting, a founder's own time. The first ones are co-creators: keep
+   them close. Three things to hear: why they said yes, what they expect
+   next, what they would change. With their permission, their words go
+   verbatim into `evidence/language.md`, and the quotes they agree to share
+   become the proof on the next card. Once commitments arrive from
+   strangers in numbers, a short written question can take over from the
+   call.
 5. Save the card, update `project-state.md`, commit: `Experiment NN: read`.
 
 ## B2B teams
