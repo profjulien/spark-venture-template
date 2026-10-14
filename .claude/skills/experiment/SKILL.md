@@ -137,10 +137,13 @@ Show the working on the card.
 - **Expected rate:** start from the rate in the audit. Strangers usually
   convert at a lower rate than friends; ask the team for their own estimate
   and label it INFERENCE.
-- **How many to ask:** enough that the expected count is at least 3.
-  At an expected 3, a zero happens about one time in twenty, so a zero is a
-  finding. Formula: people to ask = 3 ÷ expected rate. Example: at an
-  expected 5%, ask 60.
+- **How many to ask:** enough people that the team expects at least 3
+  yeses. Formula: people to ask = 3 ÷ expected rate. Example: at an
+  expected 5%, ask 60. Why 3: ask 10 people at 5% and the team expects half
+  a yes, so zero yeses is the likeliest outcome even when the assumption is
+  true. Ask 60, and zero yeses turns up about one time in twenty by chance:
+  a zero from 60 says the assumption is false. Say this to the team in one
+  line, with their own numbers.
 - **Readable within a week:** if the team cannot reach that many through
   one channel in seven days, choose a channel where it can, or lower the
   ask's step (a booking before a deposit) and say so on the card.
@@ -273,7 +276,8 @@ On or after the read date:
      the numbers point to — the channel (few visitors), the page and proof
      (visitors, few ask clicks), or the ask and its friction (clicks, few
      confirmed) — and design the next card with that change alone.
-   - **Rethink:** a zero from enough people to read. The assumption is
+   - **Rethink:** zero yeses from enough people asked (step 5's number).
+     The assumption is
      false as written. Go back to step 3 with this result in the audit.
 4. **Ask the people who acted one question**, within 24 hours of their
    commitment: *what almost stopped you?* Add their answers, verbatim, to
