@@ -11,6 +11,7 @@ _Updated: [date] by [name]_
 - **Best channel:** [source] — [confirmed] of [visitors] — from `funnel_by_source`
 - **Where it thins out:** [step] — possible explanations: [two or three] → next test: [one change]
 - **Live page:** [https://….pages.dev]
+- **Experiment running:** [experiments/NN-….md] — asked [n] of [N]; [m] confirmed; read on [date]
 
 ## Metric this week
 

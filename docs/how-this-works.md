@@ -31,8 +31,14 @@ Keep these two files true and every session starts strong.
 ## The loop
 
 ```
-/new-page  →  preview  →  /publish  →  check the live page  →  /wrap-up
+/experiment  →  /new-page  →  /publish  →  send  →  /log  →  /wrap-up
 ```
+
+One experiment a week. `/experiment` sets the assumption, the channel, the
+give and the ask, and the number of people to ask. The page carries the
+ask; the sends put it in front of people; the count comes back through
+`/log` and the page's own funnel. On the read date, `/experiment` reads
+the result and designs the next card.
 
 Small steps, each one live. A change that breaks something is one
 `git revert` away, because GitHub holds every version.

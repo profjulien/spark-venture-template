@@ -53,6 +53,7 @@
 | `evidence/language.md` | customers' exact phrases, sorted with the canvas — the source of all copy |
 | `evidence/commitments.csv` | every confirmed ask, any kind — the milestone count |
 | `evidence/spend.csv` + `evidence/receipts/` | team spend — what ESSEC matches |
+| `experiments/` | one card per experiment: the assumption, the eight buckets, the send plan, the result |
 | `site/` | the live site: plain HTML, CSS, JS |
 | `site/config.js` | the one settings file: the ask, Supabase address and key |
 | `design/` | snapshot of the design system: `brand.md`, `tokens.json` |
@@ -95,12 +96,16 @@
     photos from `site/img/`. Refresh the snapshot whenever the system changes.
 12. **Programme vocabulary:** segment · assumption · give and ask · metric ·
     EVIDENCE / INFERENCE / UNKNOWN · responded / committed / paid.
+13. **An experiment is live once the ask reaches people.** Every week has
+    one running card in `experiments/`, designed with `/experiment`. Sends
+    come before polish: build work waits until the week's first asks are out.
 
 ### Skills
 
 | Command | Does |
 |---|---|
 | `/setup-venture` | builds *The venture* section from the Demo Day page — run once |
+| `/experiment` | designs the next experiment from the ledger — the first 10, or 10 to 50 — and gets the first asks out; reads it on its read date |
 | `/new-page` | builds a page or a channel variant from this file and `evidence/` |
 | `/publish` | checks, commits, pushes, and confirms the change is live |
 | `/log` | records a confirmed ask or a team expense in the ledgers |

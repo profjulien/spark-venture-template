@@ -14,9 +14,14 @@ description: End-of-session save. Updates project-state.md with counts, this wee
      counts next to the rates, note where the counts thin out, and list two
      or three possible explanations to test (`docs/measure.md`).
 
+   - Experiment: the running card in `experiments/` — sends ticked so
+     far against its plan, and confirmed asks with its `?ref=` code. Tick
+     any sends the team made since the last session. Read date passed?
+     Tell the team to run `/experiment` to read it.
+
 2. **Update `project-state.md`:**
    - *Updated* line: today's date and who worked.
-   - *Now*: milestone, count, funnel, live page.
+   - *Now*: milestone, count, funnel, live page, experiment running.
    - *Metric this week*: *"By [day] we will have asked N [segment]; M will
      have [done the ask]. We record the actual, including zero."* If last
      week's metric is due, write the actual next to it.

@@ -15,7 +15,27 @@ site, your evidence, your ledgers, and the memory Claude reads every session.
 3. Follow [`docs/setup.md`](docs/setup.md): design system, database,
    hosting, the ask. It ends with the **Ready to launch** checklist.
 
-After that, the loop is: **`/new-page` → preview → `/publish` → `/wrap-up`.**
+After that, the weekly loop is:
+**`/experiment` → `/new-page` if the channel needs a page → `/publish` →
+send → `/log` → `/wrap-up`**, and `/experiment` again on the read date.
+
+## Already have your team repo?
+
+Repos made from this template keep the version they started with. To bring
+in a skill added since, paste this into Claude Code in your team repo:
+
+```
+Bring in the latest Spark template skills. Fetch
+https://github.com/profjulien/spark-venture-template and copy into this
+repo, replacing older copies: .claude/skills/experiment/,
+.claude/skills/wrap-up/, experiments/README.md. In our CLAUDE.md, add the
+template's rule 13 and any rows missing from the Skills and Where things
+live tables. Add the "Experiment running" line under Now in our
+project-state.md. Keep every other file of ours as it is. Show me the
+changes, then commit: "Template update: /experiment".
+```
+
+Then start a new session so `/experiment` loads.
 
 ## Read next
 
