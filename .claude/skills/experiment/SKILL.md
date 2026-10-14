@@ -109,9 +109,14 @@ the ask climbs in two steps, both written on the card before the first send:
    the habit the product needs — e.g. *use it on five separate days in
    the next week*. A download or a sign-up is a response; the use is the commitment.
 2. **Pay (paid):** to everyone who reaches the use, the paid step — a
-   founding-member subscription, a deposit on the next version, or a
-   pre-order of the hardware that comes later. Price and terms on the card
-   from day one.
+   lifetime early-bird subscription to the premium features, or a
+   pre-order (of a later version, or of hardware that comes later). Price
+   and terms on the card from day one.
+
+**Only step 2 counts toward the 10.** Beta testers and free users are
+step 1: committed, and on the way to the milestone. The 10 are people who
+paid for the premium features or pre-ordered, on one single proposition.
+Log step-2 commitments with `/log`; keep step-1 users in the card's result.
 
 The assumption under test is the first step: *[segment] will [use it this
 way] within [window].* The count of people reaching step 2 tells the team
