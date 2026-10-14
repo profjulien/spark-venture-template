@@ -106,8 +106,8 @@ network. The test is the direct ask; a page is optional.
 the ask climbs in two steps, both written on the card before the first send:
 
 1. **Use it (act):** a specific use in a fixed window, chosen so it shows
-   the habit the product needs — e.g. *log five walks in the next seven
-   days*. A download or a sign-up is a response; the use is the commitment.
+   the habit the product needs — e.g. *use it on five separate days in
+   the next week*. A download or a sign-up is a response; the use is the commitment.
 2. **Pay (paid):** to everyone who reaches the use, the paid step — a
    founding-member subscription, a deposit on the next version, or a
    pre-order of the hardware that comes later. Price and terms on the card
