@@ -157,19 +157,27 @@ One channel per experiment, so the count says which channel did it. Choose
 where the segment already gathers, and where the team can return next week:
 a repeatable channel is the point of this leg.
 
+**Every channel on this leg is direct effort:** the founders reach each
+person, post or group themselves. The first 50 come from the team's own
+hands; that is part of what the leg proves. Paid ads come after 50, once
+direct effort has shown who commits and which words move them. A team that
+proposes ads hears this reasoning, then picks a direct channel.
+
 Options to put in front of the team, with the audit beside them:
 
 - **The ten, as a channel.** Each depositor passes the link to one person
   like them (code `ref=ref-<initial>`). Fast, and still close to the
   network: record those depositors as `network` if they know the referrer
   personally.
+- **People who show the signal:** strangers who post about the problem —
+  a complaint, a question, a workaround — reached one by one with a direct
+  message that quotes what they wrote.
 - **Communities:** Instagram, Reddit, Facebook, WhatsApp or Telegram groups,
-  LinkedIn groups, forums where the segment talks about the problem. Read
-  each group's rules before posting.
+  LinkedIn groups, forums where the segment talks about the problem. Be a
+  member first: answer, help, then ask. Read each group's rules before
+  posting.
 - **Places and events:** fairs, shops, clubs, meet-ups, with a QR code
   (`/new-page` makes the channel's variant).
-- **A small paid test:** a few days of ads to the segment. ESSEC matches
-  marketing spend 1 for 1, up to €500, on receipts: record it with `/log`.
 
 **First 10:** the channel is the team's own contacts, interviewees first.
 
