@@ -14,7 +14,7 @@ From the lightest commitment to the strongest:
 | `signup` | email or WhatsApp | the form on the page → Supabase `leads` | waitlist, early access, beta list |
 | `form` | details, in writing | a form link (Tally, Google Forms, Typeform) | pilot request, letter of intent, application |
 | `booking` | time | a calendar link (Cal.com, Calendly, Google Calendar) | demo, fitting, discovery call |
-| `payment` | money | a payment link, or manual transfer | deposit, pre-order, purchase |
+| `payment` | money | a payment link, or manual transfer | pre-order (in full, or a refundable deposit), lifetime early-bird subscription, purchase |
 
 Pick one per page, in `site/config.js` → `ask`. Every button marked
 `data-ask` follows it. The list sign-up stays on every page as the fallback
@@ -39,10 +39,14 @@ instructions: see [`payments.md`](payments.md). Set `ask.provider`.
 ## Counting
 
 The page counts visits, engagement and clicks on the ask by itself
-([`measure.md`](measure.md)). What
-counts toward the milestone is the **confirmed** ask — money received, a
-call held, a form signed. Record each one with `/log` in
-`evidence/commitments.csv`: one row per commitment, whatever its kind.
+([`measure.md`](measure.md)). Record every **confirmed** ask with `/log`
+in `evidence/commitments.csv` — money received, a call held, a form signed
+— one row per commitment, whatever its kind.
+
+The first 10 counts **paid** rows only: a lifetime early-bird subscription
+to the premium features, or a pre-order. A refundable deposit is a
+pre-order paid in part, so it counts. Sign-ups, beta testers and calls held
+are on the way there. B2B teams count a signed pilot.
 
 ## Writing the button
 

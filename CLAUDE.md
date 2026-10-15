@@ -18,7 +18,10 @@
   return]. Terms: [refund, delivery window, what happens next].
   <!-- B2B teams: replace with **The pilot ask:** feature scope · what the
   client commits to (deploy and test once ready) · who signs. -->
-- **Milestone:** [10 paid deposits | 1 signed pilot] by [date]. Next: [50 | 3 accounts].
+- **Milestone:** [10 paid | 1 signed pilot] by [date]. Next: [50 | 3 accounts].
+  Paid means a lifetime early-bird subscription to the premium features, or
+  a pre-order (a refundable deposit is a pre-order paid in part), all on the
+  single proposition. Sign-ups and beta testers are on the way there.
 - **Evidence so far** — every line labelled EVIDENCE · INFERENCE · UNKNOWN:
   - [EVIDENCE] …
   - [INFERENCE] …

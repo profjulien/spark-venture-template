@@ -9,9 +9,10 @@ Everything a page may claim comes from here.
 - **`language.md`** — the language bank: customers' exact phrases, sorted
   with the canvas. Every line of page copy starts here.
 - **Screenshots** — posts, replies, payment confirmations.
-- **`commitments.csv`** — every confirmed ask, any kind: deposits,
-  pre-orders, bookings held, pilots or letters signed. The milestone count
-  comes from here. Add rows with `/log`.
+- **`commitments.csv`** — every confirmed ask, any kind: pre-orders and
+  deposits, early-bird subscriptions, bookings held, pilots or letters
+  signed. The milestone counts the paid rows (B2B: the signed pilots).
+  Add rows with `/log`.
 - **`spend.csv` + `receipts/`** — what the team spends on sampling and
   marketing. ESSEC matches this 1 for 1, up to €500, on receipts.
 

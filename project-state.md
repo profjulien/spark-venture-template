@@ -4,7 +4,7 @@ _Updated: [date] by [name]_
 
 ## Now
 
-- **Milestone:** [10 paid deposits | 1 signed pilot] by [date]
+- **Milestone:** [10 paid | 1 signed pilot] by [date]
 - **Count:** [0] confirmed · [0] refunded or cancelled — from `evidence/commitments.csv`
 - **Main path this week:** [visitors] → [ask clicks] → [confirmed] — raw counts, from `funnel_daily`
 - **Other route:** [list sign-ups] → [followed up] → [confirmed]

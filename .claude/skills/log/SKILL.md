@@ -11,7 +11,7 @@ Ask which: **commitment**, **refund or cancellation**, or **spend**.
 
 Columns: `date,kind,channel,amount,currency,provider,customer,reference,status,note`
 
-- `kind`: what was confirmed — `deposit`, `pre-order`, `purchase`, `booking`,
+- `kind`: what was confirmed — `deposit`, `pre-order`, `subscription`, `purchase`, `booking`,
   `pilot`, `loi`, `application`, or the team's own word (lowercase, hyphens)
 - `channel`: where this person came from — the same code as the `?ref=` on
   their link, so it meets the page's own counts in `funnel_by_source` (or how you

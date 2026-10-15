@@ -29,7 +29,7 @@ Count confirmed rows of the milestone's kind in `evidence/commitments.csv`
 
 | Confirmed | Leg | The question this leg answers |
 |---|---|---|
-| below the first milestone (10 deposits, or 1 signed pilot) | **The first 10** | Will anyone commit at all? |
+| below the first milestone (10 paid — early-bird subscriptions or pre-orders, deposits included — or 1 signed pilot) | **The first 10** | Will anyone commit at all? |
 | at or above it, below the next (50, or 3 accounts) | **10 to 50** | Will people outside our network commit, through a channel we can repeat? |
 
 Tell the team the leg and the count in one line. A team on the first 10
