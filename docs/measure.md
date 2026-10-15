@@ -44,6 +44,10 @@ small numbers 2 of 30 and 4 of 30 are the same result. A low number points
 to several possible explanations; test one at a time, and change one thing
 at a time.
 
+**Few ask clicks after a passed five-second test** (`converting-page.md`):
+the visitors understood the page, so the problem is too weak for them to
+act on. Stop editing the copy and go back to interviews.
+
 ## Channels
 
 Every link you post carries its channel: `?ref=linkedin`, `?ref=wa-group`,

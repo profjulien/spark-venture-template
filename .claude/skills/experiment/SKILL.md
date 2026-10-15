@@ -288,7 +288,10 @@ On or after the read date:
    - **Change one thing:** the count came in below. Choose the one change
      the numbers point to — the channel (few visitors), the page and proof
      (visitors, few ask clicks), or the ask and its friction (clicks, few
-     confirmed) — and design the next card with that change alone.
+     confirmed) — and design the next card with that change alone. When
+     the page passed the five-second test and the ask clicks stay few, the
+     visitors understood it and the copy is the least likely cause: go
+     back to interviews before editing it.
    - **Rethink:** zero yeses from enough people asked (step 5's number).
      The assumption is
      false as written. Go back to step 3 with this result in the audit.

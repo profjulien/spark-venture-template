@@ -28,20 +28,31 @@ description: Build a new page or a variant of the main page — for a channel (L
    - Write from `evidence/language.md`: the customers' own phrases, lightly
      trimmed. Draft five headlines as "Now you can…" in their words; show
      the team all five and let them pick.
-   - Every claim traces to `evidence/`. Quotes verbatim, with permission.
+   - Fill each section from its canvas box, as the table *From canvas to
+     page* in `docs/converting-page.md` sets out. Write the `og:title` and
+     `og:description` from the same words as the hero: they are the link preview.
+   - Every claim traces to one quote in `evidence/`. Quotes verbatim, with permission.
+   - Label every line: EVIDENCE when two or more people said it, INFERENCE
+     when one did. A line nobody said yet is UNKNOWN: leave it off the page,
+     and tell the team which canvas heading needs more interviews.
+   - Before the first commitments, the proof is the team's listening: the
+     founders, a real count of people interviewed, the stage stated plainly.
    - Cut every platitude and every word on the *Our jargon* list.
-   - Where the language bank is thin, write less, and tell the team which
-     canvas heading needs more interviews.
 
 5. **Preview and review.** Open the page locally (the `site` preview in the
    desktop app, or open the file). Screenshot it at phone and desktop width
    and check it against the design system and every line of the checklist
    in `docs/converting-page.md`. Fix the three biggest gaps, then show the
-   team what you fixed and what is still open.
+   team what you fixed and what is still open. Check the link preview too:
+   the title and description a WhatsApp or LinkedIn post will show.
 
 6. **Report** to the team:
    - the page's address once published: `https://<project>.pages.dev/<short-name>.html?ref=<channel>`;
-   - each claim on the page and the evidence file it comes from;
+   - each claim on the page, its label, and the evidence file it comes from;
+   - the UNKNOWN lines left off, and the interview question that would fill each;
+   - the five-second test to run before `/publish`: five people from the
+     segment, the phone view and the link preview, the four questions in
+     `docs/converting-page.md`;
    - what the page tests, and the number that will tell them.
 
 Publishing is a separate step: `/publish`.

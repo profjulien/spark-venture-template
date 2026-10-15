@@ -7,6 +7,13 @@ with its source.
 
 The canvas is a sorting tool here. What matters is the words.
 
+- **Their sentence, as they said it.** Your summary belongs in `canvas.md`.
+- **In the language they spoke**, with your translation beside it.
+- **Their names for things:** the problem, the category, the fix they use today.
+- **Two or more people saying the same thing** makes a line EVIDENCE; one
+  person makes it INFERENCE. `docs/converting-page.md` shows which heading
+  feeds which part of the page.
+
 ## Who struggles
 How they describe themselves and their role.
 - "…" — interview-YYYY-MM-DD-firstname
