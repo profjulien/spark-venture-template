@@ -53,7 +53,7 @@
 | `evidence/language.md` | customers' exact phrases, sorted with the canvas — the source of all copy |
 | `evidence/commitments.csv` | every confirmed ask, any kind — the milestone count |
 | `evidence/spend.csv` + `evidence/receipts/` | team spend — what ESSEC matches |
-| `experiments/` | one card per experiment: the assumption, the eight buckets, the send plan, the result |
+| `experiments/` | one card per experiment: the assumption, the nine buckets, the send plan, the result |
 | `site/` | the live site: plain HTML, CSS, JS |
 | `site/config.js` | the one settings file: the ask, Supabase address and key |
 | `design/` | snapshot of the design system: `brand.md`, `tokens.json` |

@@ -186,8 +186,17 @@ Options to put in front of the team, with the audit beside them:
 
 **First 10:** the channel is the team's own contacts, interviewees first.
 
-## 7. Give and ask
+## 7. Hook, give and ask
 
+The hook earns the click in the channel. The give earns the ask on the
+page. Write each one for its own job.
+
+- **The hook:** the first line of every post or message, and the link
+  preview, in the segment's words from `evidence/language.md` — usually the
+  struggling circumstance or the push. The page it links to opens on the
+  same words. Build the channel's page variant with `/new-page` when the
+  channel needs a page; a payment or booking link alone works for direct
+  messages, and then the hook leads straight to the ask.
 - **The ask:** the same as the first ten's (step 4), unless price is the
   assumption. One sentence, one action.
 - **The give:** what the person gets for the ask, worth what it costs them.
@@ -197,11 +206,6 @@ Options to put in front of the team, with the audit beside them:
 - **A reason to act now that is true:** a first batch of 50, a founding
   price until a date, a vote on the final design for depositors. Each one
   is a promise the team then keeps.
-- **Message match:** the first line of every post or message uses the
-  segment's words from `evidence/language.md`, and the page it links to
-  opens on the same words. Build the channel's page variant with `/new-page`
-  when the channel needs a page; a payment or booking link alone works for
-  direct messages.
 
 ## 8. Lead collector and metric
 
@@ -241,12 +245,13 @@ _Designed [date] by [names] · Leg: [first 10 | 10 to 50] · Confirmed at start:
 **Assumption tested:** [one sentence] — desirability question [n]
 **Why this one:** [the audit line that points to it]
 
-## The eight buckets
+## The nine buckets
 - User segment: [copied from CLAUDE.md]
 - Problem assumption: [copied from CLAUDE.md]
 - Desirability assumption: [step 3]
 - Channel: [one channel] — code `ref=[code]`
-- Give (hook): [step 7, with the proof]
+- Hook: [step 7: the message's first line and the link preview]
+- Give: [step 7, with the proof]
 - Ask (CTA): [step 7]
 - Lead collector: [step 8]
 - Metric: By [day] we will have asked N [segment] through [channel]; M will have [done the ask].
@@ -286,7 +291,7 @@ On or after the read date:
    - **Keep:** the channel reached the expected count. Run it again at the
      size the road to 50 needs, and record the new card as a repeat.
    - **Change one thing:** the count came in below. Choose the one change
-     the numbers point to — the channel (few visitors), the page and proof
+     the numbers point to — the channel or its hook (few visitors), the page and proof
      (visitors, few ask clicks), or the ask and its friction (clicks, few
      confirmed) — and design the next card with that change alone. When
      the page passed the five-second test and the ask clicks stay few, the

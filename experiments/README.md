@@ -6,7 +6,7 @@ One card per experiment, numbered: `01-short-name.md`, `02-…`.
 A card holds:
 
 - the assumption it tests, and why that one;
-- the eight buckets, with the segment and problem assumption copied
+- the nine buckets, with the segment and problem assumption copied
   unchanged from `CLAUDE.md`;
 - the arithmetic: how many people to ask, and the road to the milestone;
 - the send plan: who sends what, where, by when, ticked as it goes;
